@@ -10,6 +10,6 @@ function nowServing(line) {
   else {
     var name = line[0];
     line.shift();
-    return ("Currently serving ." + name + '.');
+    return ("Currently serving " + name + '.');
   }
 }
