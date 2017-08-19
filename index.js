@@ -19,7 +19,7 @@ function currentLine(line) {
     return "The line is currently empty.";
   }
   else {
-    lineList = "The line is currently: ";
+    var lineList = "The line is currently: ";
     for (var i = 0; i < line.length; i++) {
       lineList += (i + 1);
       lineList += ". ";
