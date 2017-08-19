@@ -26,7 +26,7 @@ function currentLine(line) {
       lineList += name;
       lineList += ', ';
     }
-    lineList.slice(0, stringg.length - 2);
+    lineList.slice(0, lineList.length - 2);
   }
   return lineList;
 }
